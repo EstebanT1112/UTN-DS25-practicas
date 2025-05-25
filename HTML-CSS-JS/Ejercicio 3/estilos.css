@@ -1,0 +1,37 @@
+.tabla {
+    border-collapse: collapse;
+}
+
+.tabla th,
+.tabla td {
+    border: 2px solid black;
+    padding: 20px;
+    width: 60px;
+}
+
+td {
+    background-color: #11b9c5;
+}
+
+.fila2 td {
+    background-color: rgb(102, 27, 171);
+}
+
+.fila1 td:nth-of-type(3),
+.fila2 td:nth-of-type(3),
+.fila3 td:nth-of-type(3),
+.fila4 td:nth-of-type(3) {
+background-color: rgb(35, 12, 212);
+}
+
+.fila2 td:nth-of-type(3) {
+    background-color: rgb(194, 156, 233);
+}
+
+.fila1 td:nth-of-type(1), .fila4 td:nth-of-type(4){
+    background-color: rgba(129, 107, 238, 0.738);
+}
+
+.fila3 td:nth-of-type(2){
+    background-color: rgb(13, 121, 216);
+}

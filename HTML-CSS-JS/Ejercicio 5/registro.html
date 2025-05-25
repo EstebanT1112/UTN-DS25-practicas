@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros & Más - Registro</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="icon" href="imagenes/logo.jpg" type="image/png">
+</head>
+
+<body>
+    <div class="cabeza">
+        <header>
+            <div class="conc">
+                <h1>Libros & Más</h1>
+                <img src="imagenes/logo.jpg" alt="Logo de la librería">
+            </div>
+        </header>
+    </div>
+
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="principal.html">Inicio</a></li>
+                <li class="drop"><a href="secciones.html">Géneros</a>
+                    <ul class="submenu">
+                        <li><a href="secciones.html#romance">Romance</a></li>
+                        <li><a href="secciones.html#psicologia">Psicología</a></li>
+                        <li><a href="secciones.html#terror">Terror</a></li>
+                        <li><a href="secciones.html#cienciaficcion">Ciencia Ficción</a></li>
+                    </ul>
+                </li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Registro -->
+    <div class="reg">
+        <div class="reg-container">
+            <h1>Únete a nuestra comunidad</h1>
+            <p class="subtitle">Regístrate para recibir recomendaciones personalizadas</p>
+
+            <div class="datos">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                        <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+                    </div>
+                    
+                    <input type="date" id="nacimiento" name="nacimiento">
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico">
+                    <input type="password" id="psswd" name="passwd" placeholder="Contraseña">
+
+                    <fieldset>
+                        <legend>Sexo</legend>
+                        <div class="sexo-opc">
+                            <label>
+                                <input type="radio" name="sexo" value="hombre"> Hombre
+                            </label>
+                            <label>
+                                <input type="radio" name="sexo" value="mujer"> Mujer
+                            </label>
+                            <label>
+                                <input type="radio" name="sexo" value="noesp"> No especificado
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <select name="tema" id="tema">
+                        <option value="" selected disabled>Seleccione su género favorito</option>
+                        <option value="romance">Romance</option>
+                        <option value="psicologia">Psicologia</option>
+                        <option value="terror">Terror</option>
+                        <option value="ciencia">Ciencia ficcion</option>
+                    </select>
+
+                    <button type="submit">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <p>Libros & Más</p>
+            </div>
+            <div class="footer-links">
+                <p><a href="mailto:contacto@librosymas.com">contacto@librosymas.com</a></p>
+                <div class="redes">
+                    <a href="https://facebook.com/librosymas" target="_blank">Facebook</a>
+                    <a href="https://instagram.com/librosymas" target="_blank">Instagram</a>
+                    <a href="https://twitter.com/librosymas" target="_blank">Twitter</a>
+                </div>
+                <p><a href="terminos.html">Términos y Condiciones</a></p>
+            </div>
+            <p class="copyright">&copy; 2025 Libros & Más. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
